@@ -86,12 +86,12 @@ def adding_matz
         }
      }
 
-	programmer_hash.inject {
+	programmer_hash.inject ({
 	:yukihiro_matsumoto => {
 	  :known_for => "Ruby",
 	   :languages => ["LISP", "C"]
 		}
-	}
+	})
 
 programmer_hash
 
